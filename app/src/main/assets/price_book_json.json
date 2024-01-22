@@ -1,0 +1,77 @@
+[
+  {
+    "pbID": 1,
+    "itemName": "Milky Bar",
+    "taxRates": [
+      5.5
+    ],
+    "price": 1.5
+  },
+  {
+    "pbID": 2,
+    "itemName": "Wheat Bread",
+    "taxRates": [],
+    "price": 5.75
+  },
+  {
+    "pbID": 3,
+    "itemName": "Milk",
+    "taxRates": [],
+    "price": 3
+  },
+  {
+    "pbID": 4,
+    "itemName": "Borosil",
+    "taxRates": [
+      10,
+      8
+    ],
+    "price": 4.25
+  },
+  {
+    "pbID": 5,
+    "itemName": "Walnut",
+    "taxRates": [],
+    "price": 8.5
+  },
+  {
+    "pbID": 6,
+    "itemName": "Hair Oil",
+    "taxRates": [
+      5.5
+    ],
+    "price": 3.25
+  },
+  {
+    "pbID": 7,
+    "itemName": "Coke",
+    "taxRates": [
+      15
+    ],
+    "price": 6
+  },
+  {
+    "pbID": 8,
+    "itemName": "Liquid Handwash",
+    "taxRates": [
+      20
+    ],
+    "price": 2.5
+  },
+  {
+    "pbID": 9,
+    "itemName": "Donut",
+    "taxRates": [
+      6
+    ],
+    "price": 6
+  },
+  {
+    "pbID": 10,
+    "itemName": "Soda",
+    "taxRates": [
+      12
+    ],
+    "price": 2.5
+  }
+]

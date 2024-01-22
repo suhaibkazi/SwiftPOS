@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
+        android:name=".App"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -13,8 +14,9 @@
         android:theme="@style/Theme.SwiftPOS"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.home.MainActivity"
             android:exported="true"
+            android:launchMode="singleTask"
             android:screenOrientation="landscape"
             android:theme="@style/Theme.SwiftPOS">
             <intent-filter>
@@ -23,6 +25,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="${applicationId}.androidx-startup"
+            android:exported="false"
+            tools:node="remove">
+            <meta-data
+                android:name="com.app.initializers.YourInitializer"
+                android:value="androidx.startup" />
+
+        </provider>
     </application>
 
 </manifest>
