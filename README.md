@@ -2,7 +2,7 @@ A SwiftSku Project
 
 Simply keeps up.
 
-SwiftSKU Assessment
+SwiftSku Assessment
 
 1. Screen size could be adaptive, as I’m building for an Android phone/tablet. 
     1. Also it’s understandable if we are assuming that a specific or custom device would be provided for wherever this POS software would be used.
